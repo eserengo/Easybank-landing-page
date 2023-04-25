@@ -1,0 +1,12 @@
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
+$grid-breakpoints: (
+  xs: 375px,
+  sm: 640px,
+  md: 768px,
+  lg: 980px,
+  xl: 1200px
+);
+
+@import "bootstrap";

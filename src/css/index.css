@@ -1,0 +1,139 @@
+/*
+ Name: Easybank landing page.
+ Description: A Frontendmentor.io coding challenge.
+ Author: Federico Borzani
+ Author URL:  https://github.com/eserengo/
+*/
+
+@import "variables.css";
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  user-select: none;
+  font-family: "Public Sans";
+  font-size: 18px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  min-height: 100vh;
+}
+
+ul, li {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li, .nav .icon {
+  cursor: pointer;
+}
+
+.mod .d-flex,
+.desk {
+  background-color: var(--White);
+}
+
+.mod ul {
+  width: 90%;
+  border-radius: 8px;
+}
+
+.mod ul > li,
+.desk > ul > li {
+  font-weight: 400;
+  color: var(--GrayishBlue);
+}
+
+.mod ul > li:hover,
+.desk > ul > li:hover {
+  color: var(--DarkBlue);
+  text-decoration: var(--DarkBlue) underline solid 2px;
+  text-underline-offset: 4px;
+}
+
+.desk > ul > li,
+.btn,
+.para.secondary,
+.footer ul > li,
+.copyright,
+.attribution > span {
+  font-size: 70%;
+}
+
+.attribution > span > a {
+  font-size: 90%;
+}
+
+.btn {
+  width: 160px !important;
+  height: 40px !important;
+  border: 1px solid var(--BrightCyan);
+  color: var(--BrightCyan);
+  background-color: transparent;
+}
+
+.btn:hover {
+  border-color: transparent;
+  color: var(--White);
+  background-image: linear-gradient(to right, var(--LimeGreen), var(--BrightCyan));
+}
+
+.main {
+  background-color: var(--VeryLightGray);
+}
+
+.main .icon {
+  width: 48px;
+}
+
+.title {
+  color: var(--DarkBlue);
+  font-weight: 400;
+}
+
+.title.tertiary {
+  font-size: 120%;
+}
+
+.title.quaternary {
+  font-size: 100%;
+}
+
+.para {
+  color: var(--GrayishBlue);
+}
+
+.wrapper {
+  gap: 16px;
+}
+
+.section.three .image {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+
+
+.section.three > .wrapper > .d-flex {
+  background-color: var(--White);
+  border-radius: 8px;
+}
+
+.footer {
+  background-color: var(--DarkBlue);
+  color: var(--White);
+}
+
+.footer .icon:hover {
+  filter: invert(25%) sepia(100%) saturate(500%) hue-rotate(120deg) brightness(75%) contrast(60%);
+}
+
+.footer li:hover {
+  color: var(--BrightCyan);
+  text-decoration: var(--BrightCyan) underline solid 2px;
+  text-underline-offset: 4px;
+}
